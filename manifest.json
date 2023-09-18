@@ -2,6 +2,7 @@
     "manifest_version": 3,
     "name": "Tana Day Navigator",
     "version": "1.0",
+    "author": "Nico Baier (https://github.com/nbbaier)",
     "description": "Adds keyboard shortcuts to navigate between days in Tana",
     "content_scripts": [
         {
