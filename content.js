@@ -1,7 +1,5 @@
 const pushButton = (direction) => {
-  const buttons = document.querySelectorAll(
-    ".navtarget.Button-module_button__MGtug.Button-module_text__Y-mbW.Button-module_smaller__K437G.Button-module_neutral__463JT"
-  );
+  const buttons = document.getElementsByTagName("button");
 
   console.log(direction);
   console.log("Number of buttons =", buttons.length);
